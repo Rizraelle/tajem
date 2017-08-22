@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajem is cool!</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+  	<div class="container">
+      <div id="sliderBackground"></div>
+  		<div class="header">
+  			<div class="navbar__container">
+  				<a href="#">
+            <div class="logo">
+            <img src="img/logo.png">
+            <div class="logo__text">tajam</div>
+            </div>
+          </a>
+          <div class="navbar-button" onclick="checkClass()">
+            <i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
+          </div>
+  				<div class="navbar" id="elem">
+            <a href="#start" class="navbar__item">Home</a>
+            <a href="#about" class="navbar__item">About me</a>
+            <a href="#expertise" class="navbar__item">Experitise</a>
+            <a href="#teams" class="navbar__item">Teams</a>
+            <a href="#works" class="navbar__item">Works</a>
+            <a href="#people" class="navbar__item">People say</a>
+            <a href="#contact" class="navbar__item">Contact</a>
+          </div>
+  			</div>
+        <div class="header__text">
+  			  <div class="header__name">
+            We Are Awesome Creative Agency
+  			  </div>
+          <div class="header__line"></div>
+          <div class="header__info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="button button__header"><a href="">learn more</a></div>
+        </div>
+        <div class="slider__arrows-container">
+          <div class='slider__arrow' onclick="leftArrow()"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+          <div class='slider__arrow' onclick="rightArrow()"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+        </div>
+  		</div>
+  	</div>
+    <div class="container">
+      <div class="story" id="about">
+        <div class="story__img"><img src="img/story.png"></div>
+        <div class="story__text">
+          <div class="story__head">Our story</div>
+          <div class="story__lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="story__lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="button"><a href="">learn more</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="story__video">
+        <div><a href="https://www.youtube.com/watch?v=IWVaqk4H7b0" target="_blank"><img src="img/playVid.png"></a></div>
+        <div class="story__watch">Watch our story</div>
+      </div>
+    </div>
+    <div class="container" id="expertise">
+      <div class="expertise">
+        <div class="expertise__head">Expertise</div>
+        <div class="expertise__lorem">Lorem ipsum dolor sit amet, consectetur</div>
+        <div class="expertise__line"></div>
+      </div>
+      <div class="skills__container">
+        <div class="skills">
+          <img src="img/png_1.png">
+          <div class="skill__name">
+            Web Design & Development
+          </div>
+          <div class="skill__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div class="skills">
+          <img src="img/png_2.png">
+          <div class="skill__name">
+            Branding Identity
+          </div>
+          <div class="skill__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div class="skills">
+          <img src="img/png_3.png">
+          <div class="skill__name">
+            Mobile app
+          </div>
+          <div class="skill__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div class="skills">
+          <img src="img/png_4.png">
+          <div class="skill__name">
+            Search Engine Optimization
+          </div>
+          <div class="skill__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div class="skills">
+          <img src="img/png_5.png">
+          <div class="skill__name">
+            Game Development
+          </div>
+          <div class="skill__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+        </div>
+        <div class="skills">
+          <img src="img/png_6.png">
+          <div class="skill__name">
+            Made With Love
+          </div>
+          <div class="skill__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container team" id="teams">
+      <div class="team__info">
+        <div class="team__head">Meet Our Amazing Team</div>
+        <div class="team__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>
+        <div class="expertise__line"></div>
+      </div>
+      <div class="team__container">
+        <div class="team__section">
+          <div class="team__photo"></div>
+          <div class="team__name">
+            Semf Ukuk
+          </div>
+          <div class="team__text">
+            CEO & Founder
+          </div>
+        </div>
+        <div class="team__section">
+          <div class="team__photo"></div>
+          <div class="team__name">
+            Dik Adalin
+          </div>
+          <div class="team__text">
+            Engeneering
+          </div>
+        </div>
+        <div class="team__section">
+          <div class="team__photo"></div>
+          <div class="team__name">
+            Jeng Kol
+          </div>
+          <div class="team__text">
+            Design
+          </div>
+        </div>
+        <div class="team__section">
+          <div class="team__photo"></div>
+          <div class="team__name">
+            Pet Romak
+          </div>
+          <div class="team__text">
+            Marketing
+          </div>
+        </div>
+      </div>
+      <div class="team__bottom-text">Become part of our dream team, let's join us!</div>
+      <div class="button team__button"><a href="">We Are Hiring</a></div>
+    </div>
+    <div class="container works" id="works">
+      <div class="works__intro">
+        <div class="works__head">Our Works</div>
+        <div class="works__link">
+          <a href="" class="works__dribble">
+            See All Projects in dribble <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="works__examples">
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+        <div class="works__examples-section"></div>
+      </div>
+      <div class="button works__button"><a href="">We Are Hiring</a></div>
+    </div>
+    <div class="container people" id="people">
+      <div class="people__head">“</div>
+      <div class="photo-slider-info">
+        <div class="photo1-slider-info">
+          <div class="people__lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="people__info">
+            <div class="people__name">Jane Galadriel</div>
+            <div class="people__pro">Ceo Tengkuper</div>
+          </div>
+        </div>
+      </div>
+      <div class="people__photos">
+        <div class="photo-slider">
+          <div class="sl_slide"><img src="img/photo_1.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_2.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_3.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_4.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_5.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_1.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_2.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_3.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_4.png" class="slider__img"></div>
+          <div class="sl_slide"><img src="img/photo_5.png" class="slider__img"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container contact" id="contact">
+      <div class="contact__sections-container">
+        <div class="contact__section">
+          <div class="contact__section-head">Give Us A Good News</div>
+          <div>
+            <input type="text" input[type=reset] placeholder="Your name" name="name" class="contact__input contact__input-small">
+            <input type="text" input[type=reset] placeholder="Your email" name="mail" class="contact__input contact__input-small">
+            <input type="text" input[type=reset] placeholder="Subject" name="Subject" class="contact__input contact__input-small">
+            <textarea placeholder="Your message" class="contact__input contact__input-big"></textarea>
+          </div>
+          <div class="button contact__button"><a href="">Submit</a></div>
+        </div>
+        <div class="contact__section">
+          <div class="contact__section-head">Our Happy Client</div>
+          <div class="contact__clients">
+            <div class="contact__clients-img"><a href=""><img src="img/clients/zara.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/mango.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/barneys.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/gucci.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/klein.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/nike.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/converse.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/puma.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/levi's.png"></a></div>
+            <div class="contact__clients-img"><a href=""><img src="img/clients/billabong.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer">
+      <div class="footer__sections-container">
+        <div class="footer__section">
+          <a href="#">
+            <div class="logo">
+            <img src="img/logo.png">
+            <div class="logo__text">tajam</div>
+            </div>
+          </a>
+          <div class="footer__lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+          <div class="footer__helpful-links">
+            <a href="" class="helpful__link">Help</a>
+            <a href="" class="helpful__link">Terms & Condition</a>
+            <a href="" class="helpful__link">Privacy</a>
+          </div>
+        </div>
+        <div class="footer__section">
+          <div class="footer__section-head">
+            Our Studio
+          </div>
+          <div class="footer__contact">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <div class="location__text">
+              Ruco cucruk, Jl. Radio luar dalem jos<br>
+              No. 12 - 13, Kalideres - Jakarta Barat <br>
+              11480 Indonesia
+            </div>
+          </div>
+          <div class="footer__contact">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <div class="footer__phone">
+              (+62) 21-2224 3333
+            </div>
+          </div>
+        </div>
+        <div class="footer__section">
+          <div class="footer__section-head">
+            Stay In Touch
+          </div>
+          <div class="newsletter__input">
+            <input type="text" input[type=reset] placeholder="Subscribe our newsletter" name="name" class="contact__input contact__input-small footer__input">
+            <a href=""><div class="footer__button"><img src="img/letter.png"></div></a>
+          </div>
+          <div class="footer__social">
+            <a href=""><div class="soc_icon"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+            <a href=""><div class="soc_icon"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+            <a href=""><div class="soc_icon"><i class="fa fa-dribbble" aria-hidden="true"></i></div></a>
+            <a href=""><div class="soc_icon"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+            <a href=""><div class="soc_icon"><i class="fa fa-google-plus" aria-hidden="true"></i></div></a>
+            <a href=""><div class="soc_icon"><i class="fa fa-youtube-play" aria-hidden="true"></i></div></a>
+          </div>
+          <div class="template__info">
+            Copyright © 2015 - Tajem Creative
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  </body>
+</html>
