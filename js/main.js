@@ -1,11 +1,17 @@
+//Scrolling on page
+
+
 $(document).ready(function(){
     $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
         e.preventDefault();
-        var t = 1000;
-        var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
-        $('html,body').stop().animate({ scrollTop: $(d).offset().top }, t);
+        var time = 1000;
+        var go = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
+        $('html,body').stop().animate({ scrollTop: $(go).offset().top }, time);
     });
 });
+
+
+//Navbar button function
 
 
 function addClass() {
@@ -26,7 +32,7 @@ function checkClass() {
 
 
 
-
+//Slider on first screen
 
 var screen = [ 
   'slider_1', 
@@ -41,26 +47,18 @@ changeScreen();
 
 
 
-
-
 var go;
 
 function timeOutSlide() {
   rightArrow();
-  setTimeout(timeOutSlide, 4000);
 };
 
 
 function slide() {
-    go = setTimeout(timeOutSlide, 4000);
+  go = setTimeout(timeOutSlide, 4000);
 };
 
-
-
-
-
 slide();
-
 
 
 
@@ -71,7 +69,6 @@ function leftArrow() {
     i = screen.length-1;
   };
   changeScreen();
-  clearTimeout(timeOutSlide);
 };
 
 
@@ -85,8 +82,15 @@ function rightArrow() {
 };
 
 
-
-//setInterval(rightArrow, 1000);
+function sliderClick(direction) {
+    clearTimeout(go);
+  if (direction === 'left') {
+    leftArrow();
+  } else {
+    rightArrow();
+  }
+  go = setTimeout(timeOutSlide, 4000);
+};
 
 
 
@@ -94,6 +98,8 @@ function changeScreen() {
   document.getElementById('sliderBackground').innerHTML = '<div class="'+screen[i]+'"></div>';
 };
 
+
+//Slick slider
 
 
 $(document).ready(function(){
