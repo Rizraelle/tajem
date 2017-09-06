@@ -1,0 +1,29 @@
+{
+  "name": "tajem",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizraelle/tajem.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "landing",
+    "page"
+  ],
+  "author": "Rizraelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizraelle/tajem/issues"
+  },
+  "homepage": "https://github.com/Rizraelle/tajem#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0"
+  }
+}
