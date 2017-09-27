@@ -51,6 +51,7 @@ var go;
 
 function timeOutSlide() {
   rightArrow();
+  setTimeout(timeOutSlide, 4000);
 };
 
 
